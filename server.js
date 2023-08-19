@@ -5,7 +5,7 @@ const userRoutes = require("./routes/UserRoutes");
 const app = express();
 const dotenv = require ("dotenv");
 dotenv.config();
-app.use(cors());
+// yarnapp.use(cors());
 app.use(express.json());
 
 mongoose
